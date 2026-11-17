@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <!--
+      Used for X25519, ML-KEM-768 and ML-DSA-65. The floating version picks the newest 2.x;
+      after your first successful restore, pin it to the exact version you got.
+    -->
+    <PackageReference Include="BouncyCastle.Cryptography" Version="2.*" />
+  </ItemGroup>
+
+</Project>

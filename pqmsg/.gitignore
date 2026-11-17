@@ -1,0 +1,15 @@
+## .NET build output
+bin/
+obj/
+*.user
+*.suo
+.vs/
+.idea/
+*.swp
+TestResults/
+
+## Never commit key material
+*.key
+*.pem
+identities/
+peers/

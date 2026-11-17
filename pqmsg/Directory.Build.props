@@ -1,0 +1,13 @@
+<Project>
+
+  <PropertyGroup>
+    <!-- Change to net8.0 if your team is on the .NET 8 LTS SDK. -->
+    <TargetFramework>net10.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <!-- Flip to true once the skeleton is filled in and warning-free. -->
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+</Project>
