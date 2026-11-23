@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Secure Messenger</title>
+  </head>
+  <body>
+    <main>
+      <h1>Secure Messenger</h1>
+      <p>The server is running. Open this address on both devices:</p>
+      <code id="address"></code>
+    </main>
+    <script>
+      document.getElementById("address").textContent = window.location.origin;
+    </script>
+  </body>
+</html>
