@@ -1,5 +1,0 @@
-<Project Sdk="Microsoft.NET.Sdk">
-
-  <!-- Transport only: moves opaque byte frames. No crypto, no protocol knowledge. -->
-
-</Project>
